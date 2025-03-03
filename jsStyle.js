@@ -1,14 +1,14 @@
 window.addEventListener("load", function () {
     if (!localStorage.getItem("visited")) {
-        // If the user has never visited, show the preloader
+        
         document.getElementById("preloader").style.display = "flex";
 
         setTimeout(function () {
             document.getElementById("preloader").style.display = "none";
-            localStorage.setItem("visited", "true"); // Store that the user has visited
-        }, 3000); // Change time (3000ms = 3 seconds)
+            localStorage.setItem("visited", "true"); 
+        }, 3000); 
     } else {
-        // If the user has visited before, hide the preloader instantly
+        
         document.getElementById("preloader").style.display = "none";
     }
 });

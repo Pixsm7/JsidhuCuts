@@ -1,29 +1,27 @@
 body {
-    font-family: 'Poppins', sans-serif; /* Sets the font */
-    text-align: center; /* Centers all text */
-    margin: 0; /* Removes default margin */
-    padding: 0; /* Removes default padding */
-    background-color: #121212; /* Dark mode background */
-    color: #e0c28b; /* Gold accent color */
+    font-family: 'Poppins', sans-serif; 
+    text-align: center; 
+    margin: 0; 
+    padding: 0;
+    background-color: #121212; 
+    color: #e0c28b; 
 }
 
-/* Header */
 header {
-    background-color: #1a1a1a; /* Dark background for the header */
-    color: #e0c28b; /* Gold text */
-    padding: 20px; /* Adds space around the content */
-    text-transform: uppercase; /* Capitalizes text */
-    font-weight: bold; /* Makes text bold */
+    background-color: #1a1a1a; 
+    color: #e0c28b; 
+    padding: 20px; 
+    text-transform: uppercase; 
+    font-weight: bold; 
 }
 
 header img {
-    max-width: 110px; /* Sets a max width for the logo */
-    height: auto; /* Ensures the image maintains aspect ratio */
-    display: block; /* Centers the image */
-    margin: 0 auto 10px; /* Centers the image and adds bottom margin */
+    max-width: 110px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto 10px; 
 }
 
-/* About Me and Contact Section Side by Side */
 .about-contact-wrapper {
     display: flex;
     justify-content: space-around;
@@ -33,7 +31,7 @@ header img {
 }
 
 .about-me, .contact {
-    width: 45%; /* Ensures they take up equal space */
+    width: 45%; 
     background-color: #1e1e1e;
     padding: 30px;
     border-radius: 10px;
@@ -58,7 +56,6 @@ header img {
     margin-bottom: 15px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .about-contact-wrapper {
         flex-direction: column;
@@ -71,37 +68,36 @@ header img {
     }
 }
 
-/* About Me Section */
 .about-me {
-    background-color: #1e1e1e; /* Keeps dark theme */
-    padding: 50px; /* Adds space around the section */
-    margin-bottom: 40px; /* Adds space before the next section */
-    border-radius: 10px; /* Rounds the corners */
-    text-align: center; /* Centers text */
+    background-color: #1e1e1e; 
+    padding: 50px; 
+    margin-bottom: 40px; 
+    border-radius: 10px; 
+    text-align: center; 
 }
 
-/* About Me Heading */
+
 .about-me h2 {
-    font-size: 28px; /* Sets font size */
-    text-transform: uppercase; /* Makes text all uppercase */
-    margin-bottom: 20px; /* Adds space below the heading */
-    border-bottom: 2px solid #e0c28b; /* Adds an underline */
-    display: inline-block; /* Keeps the underline properly positioned */
-    padding-bottom: 5px; /* Adds space between text and underline */
+    font-size: 28px; 
+    text-transform: uppercase; 
+    margin-bottom: 20px; 
+    border-bottom: 2px solid #e0c28b; 
+    display: inline-block; 
+    padding-bottom: 5px; 
 }
 
-/* Profile Image */
+
 .about-content img {
-    width: 180px; /* Sets image size */
+    width: 180px; 
     height: 180px;
-    border-radius: 50%; /* Makes image circular */
-    border: 3px solid #e0c28b; /* Adds a gold border */
-    object-fit: cover; /* Ensures the image fills the circle */
+    border-radius: 50%; 
+    border: 3px solid #e0c28b; 
+    object-fit: cover; 
     display: block;
-    margin: 20px auto; /* Centers the image */
+    margin: 20px auto; 
 }
 
-/* Contact Section (Updated to match About Me styling) */
+
 .contact {
     background-color: #1e1e1e;
     padding: 50px;
@@ -111,7 +107,7 @@ header img {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Contact Links */
+
 .contact a {
     color: #e0c28b;
     text-decoration: none;
@@ -119,41 +115,41 @@ header img {
 }
 
 
-/* Gallery Section */
+
 .gallery {
-    background: #1e1e1e; /* Keeps the dark theme */
-    padding: 30px; /* Adds space */
-    border-radius: 10px; /* Rounds corners */
+    background: #1e1e1e; 
+    padding: 30px; 
+    border-radius: 10px; 
     text-align: center;
 }
 
 .gallery h2 {
-    text-decoration: underline; /* Underlines the heading */
+    text-decoration: underline; 
 }
 
-/* Makes videos appear side by side */
+
 .gallery-container {
     width: 100%;
     text-align: center;
     display: inline-block;
 }
 
-/* Ensures videos are aligned properly */
+
 .gallery-item {
-    width: 30%; /* Sets equal width for each video */
+    width: 30%; 
     display: inline-block;
-    vertical-align: top; /* Aligns items at the top */
+    vertical-align: top; 
     margin: 10px;
 }
 
-/* Video Size */
+
 video {
-    width: 75%; /* Ensures videos resize properly */
+    width: 75%; 
     height: auto;
-    border-radius: 10px; /* Rounds video corners */
+    border-radius: 10px; 
 }
 
-/* Pricing Section */
+
 .pricing {
     background-color: #121212;
     padding: 25px;
@@ -162,15 +158,15 @@ video {
     text-align: center;
 }
 
-/* Adjust Pricing Header Alignment */
+
 .pricing h2 {
     display: inline-block;
     text-align: center;
     position: relative;
-    left: 15px; /* Moves the header slightly to the right */
+    left: 15px; 
 }
 
-/* Business Hours */
+
 .business-hours {
     background-color: #1e1e1e;
     padding: 25px;
@@ -184,14 +180,14 @@ video {
     left: 15px;
 }
 
-/* Homepage Navigation */
+
 .nav-home {
     text-align: center;
     padding-right: 40px;
 
 }
 
-/* Gallery Page Navigation */
+
 .nav-gallery {
     text-align: center;
     padding-right: 50px;
@@ -209,7 +205,7 @@ nav a:hover {
 .team a{
     color: #FFFFFF;
 }
-/* Navigation Bar */
+
 nav {
     display: flex;
     justify-content: center;
@@ -248,7 +244,6 @@ nav ul li:hover > a {
 }
 
 
-/* Preloader Styles */
 #preloader {
     position: fixed;
     width: 100%;
@@ -259,12 +254,12 @@ nav ul li:hover > a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #e0c28b; /* Gold text */
+    color: #e0c28b; 
     font-size: 22px;
     font-weight: bold;
 }
 
-/* Loading Spinner */
+
 #preloader::after {
     content: "";
     width: 50px;
@@ -276,13 +271,13 @@ nav ul li:hover > a {
     animation: spin 1s linear infinite;
 }
 
-/* Keyframe Animation for Spinner */
+
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
 
-/* Page Fade In Effect */
+
 body {
     opacity: 0;
     transition: opacity 0.8s ease-in-out;
@@ -293,7 +288,6 @@ body.loaded {
 }
 
 
-/* Floating Button */
 #floating-button {
     position: fixed;
     bottom: 20px;
@@ -314,21 +308,21 @@ body.loaded {
     background-color: #fff;
 }
 
-/* Booking Page Navigation */
+
 .nav-booking {
     text-align: center;
     padding-right: 50px;
 }
-/* Move section to the left and push it down */
+
 .booking-section {
     font-size: 12px;
-    margin-left: -15px; /* Adjust to move left (-) or right (+) */
-    margin-top: 50px;  /* Adjust to move down (+) or up (-) */
+    margin-left: -15px; 
+    margin-top: 50px;  
 }
-/* Center the booking form */
+
 .booking-section {
     max-width: 450px;
-    background: #1a1a1a; /* Dark background */
+    background: #1a1a1a; 
     border-radius: 12px;
     padding: 25px;
     margin: auto;
@@ -336,7 +330,7 @@ body.loaded {
     text-align: center;
 }
 
-/* Style the form fields */
+
 .booking-section input, 
 .booking-section select {
     width: 100%;
@@ -357,7 +351,6 @@ body.loaded {
     box-shadow: 0px 0px 8px rgba(255, 215, 0, 0.4);
 }
 
-/* Style the buttons */
 .booking-section button {
     width: 100%;
     padding: 12px;
@@ -377,14 +370,12 @@ body.loaded {
     transform: scale(1.05);
 }
 
-/* Style the labels */
 .booking-section label {
     font-weight: bold;
     display: block;
     margin-top: 15px;
 }
 
-/* Style the cancel section */
 .cancel-section {
     margin-top: 30px;
     padding-top: 20px;

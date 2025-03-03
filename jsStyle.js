@@ -33,5 +33,6 @@ function typeText(elementId, text, speed = 100) {
 window.onload = function () {
     typeText("typing-text", "Welcome to JSidhuCuts", 100);
     typeText("gallery-typing-text", "Gallery", 100);
+    typeText("booking-typing-text", "Booking An Appointment", 100);
 };
 

@@ -118,8 +118,6 @@ header img {
     font-weight: bold;
 }
 
-.contact a:hover {
-}
 
 /* Gallery Section */
 .gallery {
@@ -249,25 +247,6 @@ nav ul li:hover > a {
     transform: scale(1.1);
 }
 
-nav ul li:hover ul {
-    display: block;
-}
-
-nav ul li ul li {
-    width: 100%;
-}
-
-nav ul li ul li a {
-    padding: 10px;
-    display: block;
-    color: white;
-    transition: 0.3s;
-}
-
-nav ul li ul li a:hover {
-    background-color: #e0c28b;
-    color: #121212;
-}
 
 /* Preloader Styles */
 #preloader {

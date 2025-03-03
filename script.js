@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         try {
-            console.log("🚀 Sending cancellation request:", { phone }); // Debugging log
+            console.log("🚀 Sending cancellation request:", { phone }); 
             const response = await fetch(`${backendUrl}/cancel`, {  
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
             });
 
             const result = await response.json();
-            console.log("📥 Server Response:", result); // Debugging log
+            console.log("📥 Server Response:", result);
 
             if (!response.ok) throw new Error(result.error);
 

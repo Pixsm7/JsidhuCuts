@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const bookingForm = document.getElementById("booking-form");
     const cancelForm = document.getElementById("cancel-form");
     const messageDisplay = document.getElementById("booking-message");
-    const backendUrl = "https://b8a2-18-223-125-5.ngrok-free.app";
+    const backendUrl = "https://api.jsidhucuts.com";
 
 
     bookingForm.addEventListener("submit", async function (event) {

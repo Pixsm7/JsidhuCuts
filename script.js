@@ -31,11 +31,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
             if (!response.ok) throw new Error(data.error);
 
-            messageDisplay.textContent = "✅ Booking successful!";
+            messageDisplay.textContent = "✅ Booking Scheduled!";
             messageDisplay.style.color = "green";
         } catch (error) {
             console.error("❌ Booking error:", error);
-            messageDisplay.textContent = "❌ Booking failed.";
+            messageDisplay.textContent = "❌ The Booking slot chosen is full, please select a new time/date.";
             messageDisplay.style.color = "red";
         }
         messageDisplay.style.display = "block";

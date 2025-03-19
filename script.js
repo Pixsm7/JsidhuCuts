@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
             messageDisplay.style.color = "green";
         } catch (error) {
             console.error("❌ Booking error:", error);
-            messageDisplay.textContent = "❌ The Booking slot chosen is full, please select a new time/date.";
+            messageDisplay.textContent = "❌ The Booking slot chosen is taken, please select a new time/date.";
             messageDisplay.style.color = "red";
         }
         messageDisplay.style.display = "block";

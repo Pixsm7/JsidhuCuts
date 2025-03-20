@@ -8,9 +8,19 @@ document.addEventListener("DOMContentLoaded", function () {
     bookingForm.addEventListener("submit", async function (event) {
         event.preventDefault();
 
+        const date = document.getElementById("date").value; 
+        const selectedDate = new Date(date);
+        const dayOfWeek = selectedDate.getDay();
+        
+        if (dayOfWeek !== 4 && dayOfWeek !== 5) {
+            messageDisplay.textContent = "❌ Appointments can only be booked on Fridays and Saturdays.";
+            messageDisplay.style.color = "red";
+            messageDisplay.style.display = "block";
+            return;
+        }
+        
         const name = document.getElementById("name").value;
         let phone = document.getElementById("phone").value.replace(/^1/, "");
-        const date = document.getElementById("date").value;
         const time = document.getElementById("time").value;
 
         if (!name || !phone || !date || !time || phone.length !== 10) {

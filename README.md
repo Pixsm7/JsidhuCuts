@@ -42,7 +42,8 @@ Booking data is stored in SQLite database
 Backend triggers Discord bot notification
 Static assets are served via AWS S3
 
-(You can optionally insert an architecture diagram image here to visually demonstrate the flow.)
+<img width="740" height="433" alt="image" src="https://github.com/user-attachments/assets/bbda191b-73fe-4b84-b368-a84fe7a02910" />
+
 
 Security Implementation
 
